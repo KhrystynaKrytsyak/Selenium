@@ -1,0 +1,62 @@
+Selenium Class 01
+
+What is software testing?
+--> identify the correctness and quality of the application
+
+How many way can we actually test?
+-->manual
+-->automation
+
+When do we go for automation testing?
+--> after manual testing is passed
+--> when environment is stable
+--> analyze out test suite and choose out automation tools
+
+What automation tools do we know about?
+--> Selenium, Cucumber, TestNG, JUnit, Katalon Studio, UFT/QTP
+
+Level of testing:
+1. Unit testing (tested by developers)
+2. Integration testing (tested by testers)
+3. Acceptance testing (tested by clients)
+4. System testing (tested mostly by developers)
+
+Types of testing?
+--> Functional testing (smoke, regression, etc)
+--> Non-functional testing (Performace testing --load, stree, performcance of the app in a severe load
+&& secutiry testing --how easy is yout app to hack)
+
+Selenium components:
+Selenium IDE -- integrated development environment
+Selenium Grid -- Firefox plugin
+Selenium WebDriver
+Selenium RC - Remote Control
+
+What is Selenium WebDriver?
+Open source automation tool which allows us to perform actions on a web applications WebDriver is an Interface
+
+Advantages of Selenium Webdriver:
+1. Its an open source tool (free);
+2. Can work with different browsers and supports cross browsing testing;
+3. Operating System independent (iOS, Windows, Linux);
+4. Supports different computer language (Java, Javascript, python, ruby);
+
+Disadvantages of Selenium WebDriver:
+1. Cannot test desktop applications;
+2. No technical support;
+3. No built in reports;
+4. Cannot test images, videos, captchas;
+
+                    get()               vs.                  navigate()
+1.get()will wait for the page to fully load                  1. can go back,forward, and refresh
+    whereas navigate() will not
+2. get() will not keep the history of the browser whereas --------> 2. will keep history
+
+
+close()                                    vs.                          quit()
+1. close() current tab                                        1. quit() close the whole browser
+
+
+fullscreen                               vs.                    maximize()
+1.fullscreen() will maximize the whole web page     1. maximize will maximize the browser and you will still
+                                                    be able to see the control panel(back,forward,bookmarks)
