@@ -1,2 +1,4 @@
-package Class8;public class HWTask2 {
+package Class8;
+
+public class HWTask2 {
 }

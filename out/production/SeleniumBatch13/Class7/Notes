@@ -1,0 +1,13 @@
+Handling multiple windows (tabs):
+
+- In order ro handle multiple windows we will be using:
+1. getWindowHandle();
+2. getWindowHandles();
+
+
+WindowHandle:
+- is a unique ID that holds the address of the window or a tab
+- it is approximately a 40 alphanumeric character ID
+
+the original page where you navigate will be called parent handle
+and additional tab opened afterwards will be called child handle

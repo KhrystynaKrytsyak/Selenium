@@ -1,0 +1,36 @@
+Handling multiple windows (tabs):
+
+- In order ro handle multiple windows we will be using:
+1. getWindowHandle();
+2. getWindowHandles();
+
+
+WindowHandle:
+- is a unique ID that holds the address of the window or a tab
+- it is approximately a 40 alphanumeric character ID
+
+the original page where you navigate will be called parent handle
+and additional tab opened afterwards will be called child handle
+
+---> Most of the time when you interact with links they will open a new tab or a window.
+
+========================================================================================================================
+                                                    SYNCHRONIZATION
+ --> is the process of bringing the speed of two or more components to the same level
+ in this case we are bringing out script and page load to the same speed level.
+
+ Thread.sleep() -- static wait / unconditional wait
+
+ Types of selenium waits:
+ 1. Implicit wait
+ ---> it tells the web-driver to wait until certain amount of time before throwing an exception
+ ---> it will only be written once and will be applied to the whole session of the execution
+ We can say the Implicit wait is a global wait
+
+ Implicit wa
+
+
+ 2. Explicit wait
+ 3. Fluent wait
+
+
