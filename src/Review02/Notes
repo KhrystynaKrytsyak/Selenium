@@ -1,0 +1,40 @@
+Review for Selenium class 02:
+
+
+
+
+<html>
+    <head>
+        <title>who am i</title>
+    </head>
+
+    <body>
+        <div>
+            <label>hello</label
+        </div>
+        <div>
+            <input>enter your name</input> ->-<-
+        </div>
+    </body>
+</html>
+
+
+/html/body/div/div[2]/input
+
+
+
+
+ABSOLUTE XPATH:
+
+/html/head/title    -> to get the title
+
+/html/body/div/input  --> ti get to input tag
+
+
+
+
+<html>
+    <head>
+    </head>
+
+    <body>
